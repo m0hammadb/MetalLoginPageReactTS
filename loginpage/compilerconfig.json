@@ -2,5 +2,9 @@
   {
     "outputFile": "src/Views/Login/LoginPage.css",
     "inputFile": "src/Views/Login/LoginPage.scss"
+  },
+  {
+    "outputFile": "src/Components/Login/Login.css",
+    "inputFile": "src/Components/Login/Login.scss"
   }
 ]
