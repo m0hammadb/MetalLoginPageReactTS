@@ -27,7 +27,7 @@ const LoginForm = () => {
         <div className="flex justify-between px-10 py-5 pb-10">
             <p>Check</p>
 
-            <button type="button">ورود</button>
+            <button className="btn-login" type="button">ورود</button>
         </div>
     </div>;
 }

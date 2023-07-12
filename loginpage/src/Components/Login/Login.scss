@@ -31,9 +31,22 @@
             background-color: #bdc6ce;
             border: 2px solid #575656;
             color: #939aa1;
-            font-weight:bold;
-            font-size:25px;
+            font-weight: bold;
+            font-size: 25px;
             box-shadow: inset 1px 1px 5px #575656;
         }
+    }
+
+    .btn-login {
+        border: 2px solid #676768;
+        border-bottom-width: 5px;
+        border-radius: 5px;
+        padding: 15px 60px;
+        padding-bottom:20px;
+        font-size: 20px;
+        background: rgb(63,94,251);
+        background: linear-gradient(175deg, rgba(63,94,251,1) 0%, rgba(211,219,224,1) 0%, rgba(130,140,149,1) 100%);
+        color: #3a3936;
+        font-weight:bold;
     }
 }
