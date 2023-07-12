@@ -3,14 +3,11 @@
 .login-form {
     background-color: #b9c2c9;
     border: 6px solid white;
-    height: 600px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #000000;
-    
+
     .white-shadow {
-        
-        z-index:0;
-        
+        z-index: 0;
     }
 
     .header {
@@ -24,6 +21,19 @@
             background-color: white;
             z-index: 0;
             box-shadow: 1px 4px 10px #a4b0bb;
+        }
+    }
+
+    .inputs {
+        .input-text {
+            padding: 20px 0;
+            border-radius: 10px;
+            background-color: #bdc6ce;
+            border: 2px solid #575656;
+            color: #939aa1;
+            font-weight:bold;
+            font-size:25px;
+            box-shadow: inset 1px 1px 5px #575656;
         }
     }
 }
