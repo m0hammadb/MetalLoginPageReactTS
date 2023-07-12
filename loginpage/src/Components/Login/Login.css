@@ -1,7 +1,8 @@
 ﻿.login-form {
+  color: #757a85;
   background-color: #b9c2c9;
   border: 6px solid white;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 1px 1px 10px #706a6a;
 }
 .login-form .white-shadow {

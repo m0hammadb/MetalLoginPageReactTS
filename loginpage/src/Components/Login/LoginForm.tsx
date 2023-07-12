@@ -43,8 +43,8 @@ const CustomSwitch = () => {
 
     return <div className="custom-switch">
         <div className={"switch-container relative " + (selected && "switch-selected")}>
-            <div onClick={() => setSelected(x => !x)} className="slider duration-500 absolute right-0 cursor-pointer">
-                <img src={require("./metal slider.png") } className="w-[30px]" alt="slider" />
+            <div onClick={() => setSelected(x => !x)} className="slider duration-500 absolute right-[-8px] top-[-6px] cursor-pointer">
+                <img src={require("./metal slider.png") } className="w-[45px]" alt="slider" />
             </div>
         </div>
     </div>
