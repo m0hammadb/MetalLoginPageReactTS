@@ -1,4 +1,5 @@
-﻿import "./Login.css";
+﻿import { useState } from "react";
+import "./Login.css";
 
 
 
@@ -24,12 +25,28 @@ const LoginForm = () => {
             <input type="password" className="w-full input-text text-center" placeholder="کلمه عبور" />
         </div>
 
-        <div className="flex justify-between px-10 py-5 pb-10">
-            <p>Check</p>
+        <div className="flex justify-between items-center px-10 py-5 pb-10">
+            <div className="flex gap-2">
+                <CustomSwitch />
+                <span className="text-[18px] font-bold">ذخیره</span>
+            </div>
 
             <button className="btn-login" type="button">ورود</button>
         </div>
     </div>;
 }
 
+
+const CustomSwitch = () => {
+
+    const [selected, setSelected] = useState(false);
+
+    return <div className="custom-switch">
+        <div className={"switch-container relative " + (selected && "switch-selected")}>
+            <div onClick={() => setSelected(x => !x)} className="slider duration-500 absolute right-0 cursor-pointer">
+                <img src={require("./metal slider.png") } className="w-[30px]" alt="slider" />
+            </div>
+        </div>
+    </div>
+}
 export default LoginForm;
